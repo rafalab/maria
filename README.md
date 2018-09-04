@@ -51,7 +51,7 @@ We include a Makefile that shows how the order the R scripts should be run to re
 * Read-in and wrangle the death count data and population data
 * Fit the models
 * Generate the figures and tables.
-
+* Run `computing-numbers.Rmd` to get the numbers inserted in the manuscript.
 # Correspondence
 For any issues with the functionality of the script please [create an issue](https://github.com/rafalab/maria/issues).
 
