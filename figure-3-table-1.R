@@ -110,7 +110,8 @@ tab <- res %>%
 library(htmlTable)
 options(digits=3)
 tt <- tab %>% filter(p_value < 0.05/30) %>%
-  mutate(expected = as.integer(round(expected)),
+  mutate(observed = as.integer(round(observed)),
+         expected = as.integer(round(expected)),
          excess = as.integer(round(excess)),
          increase = as.integer(round(increase)),
          lower = as.integer(round(lower)),

@@ -26,6 +26,12 @@ However, we include a csv file with the necessary population estimates needed to
 * `data/florida/florida-population-estimate.csv`
 * `data/puerto-rico/pr-population-estimate.csv`
 
+## Puerto Rico Daily Mortality Data
+
+You will need to obtain these data from the [Department of Health of Puerto Rico of Puerto Rico](http://www.salud.gov.pr/Pages/Home.aspx) to obtain this file:
+
+* `PRRD_noidMOR\ 015-18_Harvard.xlsx`
+
 ## Louisiana Daily Mortality Data
 
 We used Louisiana daily mortality data to obtain counts for the day of the hurricane and the two days after. You will need to obtain the following file from the [Louisiana Vital Statistics System](http://ldh.la.gov)
